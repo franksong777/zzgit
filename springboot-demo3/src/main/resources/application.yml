@@ -1,3 +1,5 @@
+server:
+  port: 80
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -9,5 +11,10 @@ spring:
 logging:
   level:
     root: info
-server:
-  port: 80
+    com.eagle.controller: warn
+  file:
+    name: server.log
+  logback:
+    rollingpolicy:
+      max-file-size: 100KB
+      file-name-pattern: server.%d{yyyy-MM-dd}.%i.log

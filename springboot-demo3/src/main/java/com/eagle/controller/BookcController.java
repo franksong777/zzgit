@@ -18,7 +18,8 @@ public class BookcController {
         log.info("info...");
         log.warn("warn...");
         log.error("error...");
-
+        System.out.println("hot deploy test ...");
+        System.out.println("hot deploy test ...");
 
         return number==Result.correct?Result.correct:Result.incorrect;
     }

@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/cloud_user?serverTimezone=UTC
+      username: root
+      password: root
+  application:
+    name: userservice
+  cloud:
+    nacos:
+      server-addr: localhost:8848      # nacos client address
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      table-prefix: tb_
+      id-type: auto
+
+server:
+  port: 8081
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://127.0.0.1:10086/eureka/

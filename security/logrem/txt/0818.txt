@@ -1,0 +1,13 @@
+nacos / --- github.com/alibaba/nacos
+>startup.cmd -m standalone  // start server nacos
+                            // user/ps --> nacos/nacos
+>startup.cmd   // default is cluster start
+
+soft --> VM / finalshell /centOS /
+          docker 
+         navicat / sqlyog
+         EditPlus 
+
+
+---------------------
+JWT Json Web Token --> Header/Payload/Signature

@@ -1,0 +1,33 @@
+zuul --> gateway
+
+https://blog.csdn.net/hxfzr1314521/article/details/110866581
+
+https://blog.csdn.net/u010681191/article/details/99656413      // dalao01
+
+https://www.ngui.cc/51cto/show-615765.html            // xiaobai
+
+https://www.cnblogs.com/davidwang456/articles/10402519.html     //dalao02
+
+https://file.xdclass.net/note/2020/alibaba-cloud/AlibabaCloud-学习笔记.html        // gateway
+
+
+https://www.cnblogs.com/floating-life/p/15425679.html   //  momofei
+
+gateway oauth2   // baidu
+
+//------------- mysql----------
+
+首先在MySQL中输入 show variables like ‘%secure%’;查看 secure-file-priv 当前的值是什么
+
+如若不是空值，在my.cnf里修改secure-file-priv=''，没有就增加这个配置
+
+之后重启mysql，systemctl restart mysqld
+
+select * from table into outfile '~/dataxweb.txt'; 注意此处的路径中的~并不是home目录下的
+用户目录，而是/var/lib/mysql/目录。
+
+###  ctrl +shift + N --->  search tool
+###  ctrl +shift + F --->  whole scope search
+=== StringUtils.isBlank(token)   //  token is null 
+
+--- @Repository = @Mapper ??
